@@ -1,0 +1,6 @@
+[user]
+	email = me@kevinrtai.dev
+[core]
+	editor = vim
+[init]
+	defaultBranch = main

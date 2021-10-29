@@ -1,0 +1,19 @@
+# Overrides
+alias df='df -x"squashfs"'
+
+# shortcuts
+alias upgrade='sudo apt update && sudo apt upgrade'
+alias sensors-init='sudo modprobe -v nct6775'
+
+# git
+alias gitl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias gitcam='git commit -a -m'
+alias gits='git status'
+alias gitcane='git commit -a --amend --no-edit'
+alias gitb='git branch'
+alias gitbd='git branch -d'
+alias gitck='git checkout'
+alias gitp='git push'
+
+# jupyter
+alias jupyter-lab-local="jupyter-lab . --ip 192.168.18.20 --port 8888 --no-browser"
