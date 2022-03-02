@@ -45,13 +45,15 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
-Plug 'ctrlpvim/ctrlp.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'itchyny/lightline.vim'
 Plug 'ycm-core/YouCompleteMe'
 Plug 'neovimhaskell/haskell-vim'
 Plug 'JuliaEditorSupport/julia-vim'
+Plug 'kana/vim-arpeggio'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 " Initialize plugin system
 call plug#end()
